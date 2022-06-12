@@ -11,7 +11,7 @@ int maxsum(int *arr, int size);
 
 int main(){
 
-    int arr[] = {-5,1,-2,3,-1,2,-2};
+    int arr[] = {100,-2,-5,-4,100};
     int size = sizeof(arr)/sizeof(int);
 
     cout << " Max subarray sum :" << maxsum(arr, size) << endl;

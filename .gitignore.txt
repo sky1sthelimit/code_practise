@@ -1,0 +1,3 @@
+*.exe
+# (#) is used to add comments to gitignore file
+# (*) is used as a wildcard match 
