@@ -1,19 +1,17 @@
 #include <stdio.h>
+#include<string.h>
 
- void foo()
- {
-   here:
-    goto display;
- }
+int main(){
 
-
-int main()
-{
-   int i = 4;
+   char *s = "SunBeam";
+   char *p = s;
 
 
-   if(i ==4){
-       goto here;
+   for(int i = 0; i < strlen(p) ; ++i, ++p){
+      printf("%c",*p++);
+      printf(" %d ",strlen(p));
+      
    }
+
    return 0;
 }

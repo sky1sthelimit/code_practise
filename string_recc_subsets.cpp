@@ -1,5 +1,5 @@
 /* String subsets 
-    if input is string ABC, O/p will be '', A,B,C,AB,AC,BC, ABC.
+    if input is string ABC, O/p will be '', A,B,C,AB,AC,BC, ABC. [This is also called Sub-sequence] 
     This gives 2^n outputs 
 */
 
@@ -10,7 +10,7 @@ void subsets(string &s, string curr , int i );
 
 int main(){
 
-    string s = "ABC";
+    string s = "ABCD";
     string curr = "";
     int i = 0;
 

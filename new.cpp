@@ -3,24 +3,17 @@
 using namespace std;
 
 
-void arr(int *a, int size);
-
 int main(){
-    
-    int a[] = {1,2,3};
-    
-    arr(a,3);
-    cout << a[0];
-   
-    
+
+    int arr[] = {1,0,2,3};
+    int arr2[] = {1,0,3,3};
+
+    if(arr == arr2) {
+        cout << "Equal" << endl;
+    }
+    else{
+        cout << " NOPE" << endl;
+    }
+
     return 0;
 }
-
-void arr(int *a, int size){
-    
-        a[0] = 100;
-        a[1] = 200;
-        a[3] = 300;
-
-
-    }
